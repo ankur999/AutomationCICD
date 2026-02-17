@@ -22,6 +22,7 @@ public class StandAloneTest {
 		//9898989898
 		//Ankur@123
 		String productItem = "ADIDAS ORIGINAL";
+		//new comments are added
 
 		// Browser Initialization
 		WebDriverManager.chromedriver().setup();
