@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-14T01:37:04 IST" name="Suite" finished-at="2026-02-14T01:37:36 IST" duration-ms="31056">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidations.LoginErrorValidation()[pri:0, instance:ankurgoyal.tests.ErrorValidations@cc43f62]" name="LoginErrorValidation" class="ankurgoyal.tests.ErrorValidations"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrder.SubmitOrder(java.util.HashMap)[pri:0, instance:ankurgoyal.tests.SubmitOrder@4d154ccd]" name="SubmitOrder" class="ankurgoyal.tests.SubmitOrder"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2026-02-14T01:37:04 IST" name="Error Validation" finished-at="2026-02-14T01:37:36 IST" duration-ms="31056">
+      <class name="ankurgoyal.tests.ErrorValidations">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ankurgoyal.tests.ErrorValidations@cc43f62]" started-at="2026-02-14T01:37:04 IST" name="launchApplication" finished-at="2026-02-14T01:37:06 IST" duration-ms="1832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:ankurgoyal.tests.ErrorValidations@cc43f62]" started-at="2026-02-14T01:37:06 IST" name="LoginErrorValidation" finished-at="2026-02-14T01:37:09 IST" duration-ms="2903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ankurgoyal.tests.ErrorValidations@cc43f62]" started-at="2026-02-14T01:37:09 IST" name="tearDown" finished-at="2026-02-14T01:37:09 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ankurgoyal.tests.ErrorValidations@cc43f62]" started-at="2026-02-14T01:37:09 IST" name="launchApplication" finished-at="2026-02-14T01:37:11 IST" duration-ms="1457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:ankurgoyal.tests.ErrorValidations@cc43f62]" started-at="2026-02-14T01:37:11 IST" name="productErrorValidation" finished-at="2026-02-14T01:37:35 IST" duration-ms="24626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ankurgoyal.tests.ErrorValidations@cc43f62]" started-at="2026-02-14T01:37:35 IST" name="tearDown" finished-at="2026-02-14T01:37:36 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ankurgoyal.tests.ErrorValidations -->
+    </test> <!-- Error Validation -->
+  </suite> <!-- Suite -->
+</testng-results>

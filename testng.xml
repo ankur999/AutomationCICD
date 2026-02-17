@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite" >
+
+<listeners>
+<listener class-name="ankurgoyal.TestComponents.Listeners"></listener>
+
+</listeners>
+  <test name="Submit Order">
+  	<classes>
+  	 <class name="ankurgoyal.tests.SubmitOrder"></class>
+  </classes>
+  </test>
+  
+  <test name="Error Validation">
+  	<classes>
+  	 <class name="ankurgoyal.tests.ErrorValidations"></class>
+  </classes>
+  </test>
+</suite> <!-- Suite -->
